@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米账号注册</title>
+    <link rel="stylesheet" href="../css/registry.css">
+</head>
+
+<body>
+    <div id="header">
+
+    </div>
+    <div id="main">
+        <video class="bg-video" src="../img/snow.mp4" autoplay loop muted></video>
+        <div class="container">
+            <div class="form-container">
+                <form id="form-register" method="POST" action="http://localhost/project/src/php/registry.php">
+                    <div class="form-group">
+                        <label for="email">邮箱:</label>
+                        <input id="email" minlength="6" maxlength="25" autofocus required type="text" />
+                        <span class="bg-default help-block">邮箱请填写正确</span>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="upwd">密&nbsp;&nbsp;&nbsp;&nbsp;码:</label>
+                        <input id="password" type="password" minlength="6" autofocus required />
+                        <span id="upwd-msg" class="bg-default help-block">密码长度在6~12位之间</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="upwd">确认密码:</label>
+                        <input id="repassword" type="password" minlength="6" autofocus required />
+                        <span id="upwd-msg" class="bg-default help-block">密码长度在6~12位之间</span>
+                    </div>
+                    <div class="form-group btn-group">
+                        <input class="btn btn-success" type="button" id="btn-submit" value="提交信息">
+                        <input class="btn btn-danger" type="reset" value="清空输入">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+    <script src="../script/jquery-3.4.1.min.js"></script>
+    <script src="../script/registry.js"></script>
+</body>
+
+</html>

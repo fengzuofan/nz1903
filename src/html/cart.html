@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+    <div class="cart">
+        <div class="container">
+            <table class="cart-header">
+                <tbody>
+                    <tr>
+                        <td class="cart-col1">
+                            <div class="cart-col1-allselect">
+                                <!-- <div class="checked" type="checkbox">
+                                </div> -->
+                                <input type="checkbox" class="check allsell" >
+                                <span>全选</span>
+                            </div>
+                        </td>
+                        <td class="cart-col2">单价(元)</td>
+                        <td class="cart-col3">数量</td>
+                        <td class="cart-col4">小计(元)</td>
+                        <td class="cart-col5">编辑</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="cart-middle">
+                <li class="cart-middle-list">
+                    <table class="cart-middle-body">
+                        <tr class="cart-product">
+                            <td class="cart-col-select">
+                                <input type="checkbox" class="check" >
+                                <!-- <div></div> -->
+                                <a href="" class="cart-col-select-img"><img src="" alt=""></a>
+
+                                <a href="" class="cart-col-select-description">木邻 北欧电视柜现代简约小户型白橡木樱桃木客厅家具实木电视柜</a>
+                            </td>
+                            <td class="cart-col-price">
+                                <p><span class="cart-product-price">1499.00</span></p>
+                            </td>
+                            <td class="cart-col-number">
+                                <div class="cart-product-number-adder">
+                                    <div class="mz-adder">
+                                        <button class="mz-adder-left">-</button>
+                                        <div class="mz-adder-num">
+                                            <input type="text" class="mz-adder-input" value="1">
+                                        </div>
+                                        <button class="mz-adder-right">+</button>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="cart-col-total">
+                                <span class="cart-product-price-total">1499.00</span>
+                            </td>
+                            <td class="cart-col-ctrl">
+                                <div class="cart-product-remove">--</div>
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cart-footer">
+        <div class="mzcontainer">
+            <div class="cart-footer-left">
+                <div class="cart-select-all">
+                    <input type="checkbox" class="check allsell" >
+                    <span class="cart-select-title">全选</span>
+                </div>
+                <span class="cart-remove-selected">删除选中的商品</span>
+                <!-- <span class="cart-footer-count"></span> -->
+                <span class="cart-footer-count">
+                  已选择<span class="cart-footer-num blue">0</span>件商品
+                </span>
+            </div>
+            <div class="cart-footer-right">
+                <span class="cart-footer-sum">
+                    合计(不含运费)：<span class="cart-footer-total">0.00</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../script/jquery-3.4.1.min.js"></script>
+    <script src="../script/jscookie.js"></script>
+    <script src="../script/cart.js"></script>
+</body>
+
+</html>

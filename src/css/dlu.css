@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+fieldset {
+    display: inline-block;
+    width: 340px;
+    margin-top: 70px;
+    color: #999;
+    border: none;
+    border-top: 1px solid #999;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 33px;
+}
+
+.zong {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    width: 1130px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.top-cen {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 588px;
+    background: url("../img/xm7.jpg") no-repeat top center;
+}
+
+.banner_box {
+    height: 500px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    right: 70px;
+    margin-top: 44px;
+}
+
+.banner_box input {
+    height: 50px;
+    width: 360px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.dl {
+    display: inline-block;
+    margin-top: 30px;
+    margin: auto;
+    margin-left: 80px;
+    font-size: 22px;
+    color: #f56600;
+    margin-right: 15px;
+    font-family: "微软雅黑";
+}
+
+.sm {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 22px;
+    margin-left: 15px;
+    color: black;
+    font-family: "微软雅黑";
+    
+}
+
+.z_zc {
+    font-size: 11px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 18px;
+}
+
+.y_zc {
+    font-size: 11px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.img_t {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.img_tc {
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+.img {
+    height: 30px;
+    width: 400px;
+    margin: 30px auto;
+    position: absolute;
+    bottom: 13px;
+}
+
+.zhdl {
+    visibility: visible;
+}
+
+.smdl {
+    visibility: hidden;
+    position: absolute;
+    top: 290px;
+    right: 117px;
+}
+
+.smdl p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 60px;
+    text-align: center;
+    color: darkgray;
+    color: #F56600;
+}
+
+.footer li {
+    float: left;
+    
+    list-style: none;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.footer .li {
+    margin-left: 780px;
+    font-size: 14px;
+}
+
+.footer ul {
+    padding-top: 90px;
+}
+
+.footer a {
+    color: #F56600;
+}

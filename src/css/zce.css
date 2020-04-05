@@ -1,0 +1,89 @@
+body {
+    font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+    color: #666;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/**
+**        注册页面
+**/
+.main{
+    position: relative;
+}
+.bg-video{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+.form-container{
+    width: 500px;
+/*    min-height: 500px;*/
+    border :1px solid #aaa;
+    border-radius: 8px;
+    margin: 200px auto;
+    padding: 50px;
+    background: rgba(255,255,255,.7);
+}
+
+#form-register .form-group{
+    line-height: 3em;
+    margin-bottom: 15px;
+	
+}
+#form-register label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+#form-register input{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+
+.help-block {
+    color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+.bg-default {
+    background: #999;
+    border-color: #777;
+}
+.btn-success ,
+.bg-success{
+    background: #090;
+    border-color: #070;
+}
+.btn-danger,
+.bg-danger{
+    background: #900;
+    border-color: #700;
+}
+.btn {
+	width:100px;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+}
+#form-register input.btn{
+	width:153px;
+	margin-right:12px;
+}
+.btn-group{
+    text-align:center;
+}

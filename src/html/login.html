@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎登陆</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <!--页面大容器-->
+    <div class="zong">
+        <!--页面头部部分-->
+        <div class="top">
+            <div class="top-cen">
+                <!-- <img class="top_logo" src="../img/xm14.png" /> -->
+                <a href="../index.html">
+                    <img class="top_logo" src="../img/xm14.png" />
+                </a>
+            </div>
+        </div>
+        <!--页面中部部分-->
+        <div class="banner">
+            <div class="banner_box">
+                <a href="#" class="dl" id="zh" onclick="dl()">账号登录</a>
+                <span style="color: #e0e0e0">|</span>
+                <a href="#" class="sm" id="sm" onclick="sm()">扫码登陆</a>
+                <div class="zhdl" id="zhdl">
+                    <form>
+                        <input type="text" placeholder="邮箱/手机号/小米ID" />
+                        <input type="password" placeholder="请输入密码" />
+                        <input style="background-color: #F56600; border: none; color: white;" type="button" value="登录">
+                        </form.000>
+                        <span class="y_zc">
+                            <a href="zce.html" style="color: #f56600;">手机短信登陆/注册</a>
+                        </span>
+                        <span class="z_zc">
+                            <a href="zce.html" style="color: black;">立即注册</a>
+                            <span>|</span>
+                            <a href="#" style="color: black;">忘记密码?</a>
+                        </span>
+                        <form>
+                            <!--当一组表单元素放到 <fieldset>标签内时，
+					浏览器会以特殊方式来显示它们，
+					它们可能有特殊的边界、3D 效果，或者甚至可创建一个子表单来处理这些元素。
+					-->
+                            <fieldset>
+                                <legend>其他方式登录</legend>
+                            </fieldset>
+                        </form>
+                        <div class="img">
+                            <img class="img_tc" src="../img/xm9.png" />
+                            <img class="img_t" src="../img/xm10.png" />
+                            <img class="img_t" src="../img/xm01.png" />
+                            <img class="img_t" src="../img/xm12.png" />
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="smdl" id="smdl">
+            <img style="margin-left: 63px;" src="../img/xm8.png" />
+            <p>使用<span style="color:#f56600 ;">小米商城APP</span>扫一扫</p>
+            <p>小米手机可打开&lceil;设置&rfloor;&nbsp;&gt;&nbsp;&lceil;小米账号&rfloor;&nbsp;扫码登陆</p>
+        </div>
+    </div>
+    <!--页面底部部分-->
+    <div class="footer">
+        <ul>
+            <li class="li">
+                <a href="#">简体</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">繁体</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">英语</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">常见问题</a>
+            </li>
+        </ul>
+        <p>XXXXXXXXX版权所有-X ICP备XXXXXXXXXXXXXXX-X <img src="../img/xm13.png"> 公网安备XXXXXXXXXXXX号-X ICP证XXXXXXXXX号</p>
+    </div>
+    <script src="../script/jquery-3.4.1.min.js"></script>
+    <script src="../script/login.js"></script>
+</body>
+
+</html>
